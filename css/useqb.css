@@ -1,0 +1,178 @@
+
+/*免费试用*/
+ *{
+     margin:0 auto;
+     padding:0;
+ }
+
+main{
+    margin:0 auto;
+    width:100%;
+}
+.nav{
+    text-align:center;
+    position:relative;
+}
+.nav h1{
+    padding:50px 0;
+    font-size:40px;
+}
+.nav a{
+    text-decoration: none;
+    color:#999999;
+
+}
+.nav .zx{
+     margin-left:130px;
+ }
+.nav .on{
+    width:130px;
+    height:4px;
+    display: inline-block;
+    background-color: red;
+    position:relative;
+    top:24px;
+    left:-105px;
+}
+.nav .hr{
+    margin:20px 0;
+    color:#999999;
+
+}
+
+/*选中为红色*/
+.nav .xz{
+    color:red;
+    border-bottom: red;
+}
+.nav .xz1{
+    color:black;
+}
+
+.nav .qb a{
+    margin-left:120px;
+}
+
+/*大图框架*/
+.big{
+    background-color: #f4f4f4;
+    text-align:center;
+}
+.big .box{
+    width:1000px;
+    margin:20px auto 0;
+}
+.big .box ul{
+    list-style: none;
+    overflow:hidden;
+    padding-top:25px;
+}
+.big .box ul li{
+    width:220px;
+    float:left;
+    margin-right:35px;
+    position: relative;
+    background-color:#fff;
+    border:1px solid  #ccc;
+    border-radius:5px;
+    text-align:center;
+    margin-bottom: 35px;
+}
+.big .box ul li:nth-child(4n){
+    margin-right:0;
+}
+.big .box ul li img{
+    height:130px;
+    border-radius:5px;
+    opacity:1;
+}
+.big .box ul li:hover img{
+    animation:auto 2s linear infinite;
+}
+.box ul .ss{
+    display: inline-block;
+    padding:3px 8px;
+    height:22px;
+    background-color:red;
+    color:#fff;
+    text-align:center;
+    line-height:22px;
+    border-radius:0 5px;
+    position:absolute;
+    top:0;
+    right:0;
+}.box ul .ss1{
+    display: inline-block;
+    padding:3px 8px;
+    height:22px;
+    background-color:blue;
+    color:#fff;
+    text-align:center;
+    line-height:22px;
+    border-radius:0 5px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.box ul h4{
+    padding:9px;
+}
+/*2023  20台*/
+.box ul p{
+    margin-top:10px;
+}
+.box ul .num span{
+    border:1px solid red;
+    border-radius:5px;
+    padding:3px 8px;
+    color:red;
+}
+.box ul .num span:last-child{
+    margin-left:10px;
+}
+    /*1392申请*/
+.box ul .sq_ span{
+    color:red;
+}
+/*报告数量*/
+.box ul li p:last-child{
+    margin-bottom:20px;
+    color:red;
+}
+
+/*加载更多*/
+.big .jz{
+  padding-bottom:50px;
+  padding-top:15px;
+    color:red;
+}
+.big .jz .stop{
+    display:none;
+}
+
+/*动画*/
+
+@keyframes auto{
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:.6;
+    }
+}
+@-moz-keyframes auto {
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:.6;
+    }
+}
+@-webkit-keyframes auto {
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:.6;
+    }
+}

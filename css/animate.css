@@ -1,0 +1,60 @@
+
+/*!*移入li显示动画*!*/
+
+@keyframes auto{
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:.3;
+    }
+}
+@-moz-keyframes auto {
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:.3;
+    }
+}
+@-webkit-keyframes auto {
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:.3;
+    }
+}
+/**首页 banner 动画**/
+@-webkit-keyframes rotateIn{
+    0%{
+        transform:translate(500px,-500px);
+    }
+    100%{
+        transform:translate(0);
+    }
+}
+@-moz-keyframes rotateIn{
+    0%{
+        transform:translate(500px,-500px);
+    }
+    100%{
+        transform:translate(0);
+    }
+}
+@-ms-keyframes rotateIn{
+    0%{
+        transform:translate(500px,-500px);
+    }
+    100%{
+        transform:translate(0);
+    }
+}
+@keyframes rotateIn{
+    0%{
+        transform:translate(500px,-500px);
+    }
+    100%{
+        transform:translate(0);
+    }
+}
